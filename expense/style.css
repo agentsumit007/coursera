@@ -1,10 +1,12 @@
-.back-image {
-    background-image: url(images/background.jpg);
+#banner-image {
+    background: url(Images/background.jpg) no-repeat center center;
+    padding-top: 75px;
+    padding-bottom: 50px;
     text-align: center;
-    color: white;
+    color: #f8f8f8;
     background-size: cover;
 }
-.banner-content {
+#banner-content {
     position: relative;
     padding-top: 6%;
     padding-bottom: 6%;
