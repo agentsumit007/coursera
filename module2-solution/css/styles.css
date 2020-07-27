@@ -5,8 +5,9 @@
     font-family: roboto, cursive, Helvetica, sans-serif;
 }
 
-h1{
+.heading{
     text-align: center;
+    margin-top: 40px;
     margin-bottom: 40px;
     font-size: 175%;
 }
@@ -15,12 +16,30 @@ h1{
     width: 90%;
 }
 .box{
-    background-color: lightgreen;
-    padding: 10px;
+    background-color: skyblue;
     border: 2px solid black;
     font-size: 125%;
+    padding: 10px;
 }
-
+.label {
+    font-size: 140%;
+    border: 2px solid black;
+    width: min-content;
+    position: relative;
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.orange {
+    background-color: orange;
+}
+.blue {
+    background-color: blue;
+    color: white;
+}
+.yellow {
+    background-color: yellow;
+}
 
 @media (min-width: 992px) {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
