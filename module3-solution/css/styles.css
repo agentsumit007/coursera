@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-brand{
+    font-size: 2em;
+}
+
+#nav-items {
+    color: #b6b1b1;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+hr{
+    height: 1px;
+    background-color: rgb(88, 85, 85);
+    border: none;
+    width: 80%;
+    margin-left: 10%;
+}
+section{
+    background-color: rgb(71, 67, 67);
+    height: 1000px;
+    padding: 15px;
+    color: whitesmoke;
+    font-size: 1.1em;
+}
